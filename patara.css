@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+.con{
+    width: 1600px;
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    /* box-shadow: 3px 3px 3px rgba(204, 204, 204, 0.616); */
+}
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 8px;
+}
+.navbar{
+    margin-left: auto;
+}
+
+.navbar li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.photo-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-one { 
+    height: auto;
+    max-width: 100%;
+}
+.text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+
+
+/* .text-two{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+} */
+
+
+.text-one{
+    border: 2px solid black;
+    background-color: rgba(233, 233, 233, 0.705);
+    padding:50px 150px;
+    margin: auto;
+    margin-top: auto;
+}
+
+
+#navtwo{
+    margin: auto;
+}
+#rowtwo{
+    margin:50px 0;
+}
+.products img{
+    transition: all .4s ;
+}
+.products img:hover{
+    transform: scale(0.85);      
+}
+.three-products-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cups{
+    width: 60%;
+}
+.cupstwo img{
+    width: 100%;
+    height: 100%;
+}
+.twothings{
+    width: 40%;
+}
+.twothings img{
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+    height: 430px;
+}
+
+
+.two-products-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ring{
+    width: 60%;
+}
+.ring-two img{
+    width: 100%;
+}
+
+.idk{
+    width: 40%;
+}
+
+.idktwo img{
+    width: 100%;
+    height: 412px;
+    padding: 8px;
+}
+.two-papers{
+    width: 50%;
+}
+.two-papers-two img{
+    width: 100%;
+    padding: 5px;
+}
+.idk-two{
+    width: 50%;
+}
+.idk-two-two img{
+    width: 100%;
+    padding: 5px;
+}
+
+.navthree{
+    padding: 50px;
+    margin: auto;
+}
+.navthree a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog{
+    width: 33.3333333%;
+    padding: 20px;
+}
+.texttwo{
+    text-align: center;
+}
+.myblog{
+    background-color: rgb(236, 236, 236);
+}
+.blog-two img{
+    width: 100%;
+    height: 400px;
+}
+.blog-text{
+    text-align: center;
+}
+
+#row-two{
+    margin-top: 20px;
+}
+
+.top-two a{
+    position: fixed;
+    
+}
+@media(max-width:1450px){
+    .blog-two{
+        text-align: center;
+    }
+    .blog-two img{
+        width: 60%;
+    }
+    .blog{
+        width: 100%;
+    }
+    .photo-one img{
+        display: none;
+    }
+    .text{
+        width: 100%;
+    }
+    .text-two{
+        margin: auto;
+    }
+    .photo-one{
+        margin: auto;
+    }
+    .cups{
+        width: 100%;
+    }
+    .twothings{
+        width: 100%;
+    }
+    .ring{
+        width: 100%;
+    }
+    .idk{
+        width: 100%;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .two-papers{
+        width: 100%;
+    }
+    .idk-two{
+        width: 100%;
+    }
+
+}
+@media(max-width:700px){
+    .navbar{
+        display: none;
+    }
+    .blog-two img {
+        width: 100%;
+    }
+}
