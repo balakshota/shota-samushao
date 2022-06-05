@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+.con{
+    background-color: rgb(202, 145, 39);
+}
+.row{
+    display: flex;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left: 5px;
+}
+.navbar{
+    margin-left: auto;
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.navbar li:last-child{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.navbar li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+i{
+    color: white;
+}
+.serve{
+    background-image: url(https://www.outsideonline.com/wp-content/uploads/2022/02/thru-hiker-appalachian-trail-forest_h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    object-fit: none;
+}
+.text{
+    margin-left: 15px;
+    width: 35%;
+    color: white;
+}
+.text-two{
+    margin-top: 10px;
+}
+.shop{
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.shop a{
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+}
+.support{
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sup-one{
+    width: 50%;
+}
+.sup-two{
+    width: 50%;
+}
+.col{
+    transition: all 0.6s;
+    width: 33.33333%;
+    padding: 0 15px;
+}
+.card{
+    box-shadow: 7px 7px 7px rgba(230, 230, 230, 0.747);
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px; 
+    height: 200px;
+    text-align: center;
+    background-color: rgb(17, 14, 14);
+    color: white;
+}
+.idk{
+    margin-top: 5px;
+}
+.col:hover{
+    transform: scale(0.9);
+}
+.product{
+    margin:15px 0;
+}
+.two-text{
+    width: 35%;
+    margin-left: auto;
+}
+.text-one, .text-two, .shop{
+    color: white;
+}
+footer{
+    margin-top: 20px;
+}
+@media(max-width:600px){
+    .navbar{
+        display: none;
+    }
+    .text{
+        width: 70%;
+    }
+    .sup-one{
+        width: 100%;
+    }
+    .sup-two{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .col{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .two-text{
+        width: 70%;
+    }
+}
