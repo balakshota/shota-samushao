@@ -126,4 +126,12 @@ input:active, textarea:active {
 .idk {
   color: rgb(139, 139, 12);
 }
+@media(max-width:460px){
+    .one{
+      width:100%; 
+    }
+    .two{
+      width:100%;
+    }
+}
 /*# sourceMappingURL=bsfinal.css.map */
