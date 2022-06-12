@@ -1,0 +1,55 @@
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1125 px;
+  }
+}
+@font-face {
+  font-family: Nino;
+  src: url("../fonts/bpg_nino_mtavruli_normal_[FONTS.GE].zip");
+}
+a {
+  text-decoration: none;
+}
+
+.sub-nav {
+  background-color: rgba(51, 54, 50, 0.6980392157);
+  z-index: 1;
+  border-bottom: 1px solid rgb(106, 106, 106);
+}
+
+.lang a, .menu a {
+  font-family: Nino;
+  font-size: 15px;
+  color: #fff;
+  display: inline-block;
+  padding: 9px 0 11px;
+}
+.lang a:not(.lang a), .menu a:not(.lang a) {
+  padding: 9px 13px 11px;
+}
+
+.navbar {
+  z-index: 1;
+  top: 44px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-link {
+  font-family: Nino;
+  font-size: 17px;
+  color: 6b6b6b;
+}
+.nav-link img {
+  margin-right: 14px;
+}
+
+.nav-item:first-child img {
+  position: relative;
+  bottom: 8px;
+  margin-right: 4px;
+}
+
+/*# sourceMappingURL=zoo.css.map */
