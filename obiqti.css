@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.card{
+    width: 100%;
+
+}
+img{
+    width: 200px;
+}
